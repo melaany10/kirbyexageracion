@@ -39,10 +39,10 @@ body {
 }
 
 .kirby {
-    animation: kirby 3s;
+    animation: kirby 3s infinite;
     position: relative;
     animation-delay: 3s;
-    animation-iteration-count: 3;
+    
 }
 
 @keyframes kirby {
@@ -51,11 +51,11 @@ body {
 
 
     0% {top: 0; left: 0;}
-    20% {top: 190px;}
+    20% {top: 60%;}
     40% {top: -6%;}
     60% {left: -150px;}
     72% {left: 180%;}
-    100% {top: 70%; left: 100%;}
+    100% {top: 770%; left: 100%;}
 
     from {-webkit-transform: rotate(0deg); transform: rotateY(0deg);}
     
